@@ -2,8 +2,45 @@ body {
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-.toolbar {
-    margin: auto;
+.nav {
+    margin: 20px;
+    padding: 20px;
     height: 50px;
-    background-color: blue;
+    color: white;
+    /* background-color: gray; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav:hover {
+    font-size: 21px;
+}
+
+#nav_one:hover {
+    color: red;
+}
+
+#nav_two:hover {
+    color: orange;
+}
+
+#nav_three:hover {
+    color: yellow;
+}
+
+#nav_four:hover {
+    color: lime;
+}
+
+#nav_five:hover {
+    color: cyan;
+}
+
+#nav_six:hover {
+    color: rgb(191, 64, 191);
+}
+
+#nav_seven:hover {
+    color: hotpink;
 }
